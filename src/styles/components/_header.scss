@@ -1,0 +1,14 @@
+.header{
+    background: $off-black ;
+    padding : $m-size 0;
+    color :white
+}
+.header_title {
+    font-size: 3.2 rem;
+    margin: 0;
+}
+.header_subtitle {
+    color :$off-white;
+    font-size:$m-size;
+    font-weight: 500;
+}

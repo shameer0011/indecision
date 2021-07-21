@@ -1,0 +1,11 @@
+.option_text {
+color :$white;
+word-break: break-all;
+}
+.option{
+    display :flex;
+    justify-content: space-between;
+    margin :0;
+    padding :1rem;
+    border-bottom :0.2rem solid lighten($color:$lightblue, $amount: 10%);
+}

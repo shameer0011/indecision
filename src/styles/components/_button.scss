@@ -1,0 +1,32 @@
+.big-button {
+    background: $purple;
+    border: none;
+    border-bottom : 0.2rem solid darken($color:$purple, $amount: 10%);
+    width : 100%;
+    font-size: 2.6rem;
+    font-weight: bold;
+    margin-bottom: 2.6rem;
+    margin-top: 2.3rem;
+    padding : 1.6rem;
+    color :white
+}
+.button {
+    background: $purple;
+    border: none;
+    font-size: 1rem;
+    padding : 0.6rem;
+    font-weight: 500;
+    color :white
+}
+.button--link {
+    background: none;
+    border: none;
+    color :$off-white;
+    padding:0;
+}
+@media (max-width:$desktop-breakpoint){
+    .big-button{
+        margin-bottom: 1.2rem;
+        margin-top: 1.3rem;
+    }
+}
